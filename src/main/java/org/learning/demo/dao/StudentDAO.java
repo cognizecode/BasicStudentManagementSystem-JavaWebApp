@@ -9,8 +9,8 @@ import java.util.List;
 public class StudentDAO {
 
     private String jdbcURL = "jdbc:mysql://localhost:3306/student";
-    private String jdbcUsername = "root";
-    private String jdbcPassword = "0101";
+    private String jdbcUsername = "db_username";
+    private String jdbcPassword = "db_password";
 
     // made connection with db and return obj of con
     private Connection getConnection() throws SQLException, ClassNotFoundException {
